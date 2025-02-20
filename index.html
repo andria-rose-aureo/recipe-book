@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Recipe Card */
+        .recipe {
+            background: white;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .recipe img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .recipe-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .recipe-title {
+            font-size: 1.8rem;
+            margin: 0 0 10px;
+            color: #ff6f61;
+        }
+
+        .recipe-details {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Recipe Book</h1>
+        <p>Delicious recipes to try at home!</p>
+    </header>
+    <div class="container">
+        <!-- Recipe 1 -->
+        <div class="recipe">
+            <img src="images/spaghetti bolognese.jpeg" alt="Spaghetti Bolognese">
+            <div class="recipe-content">
+                <h2 class="recipe-title">Spaghetti Bolognese</h2>
+                <p class="recipe-details">
+                    A classic Italian pasta dish made with ground beef, tomatoes, and spices. Perfect for a cozy dinner!
+                </p>
+            </div>
+        </div>
+        <!-- Recipe 2 -->
+        <div class="recipe">
+            <img src="images/chicken curry.jpeg" alt="Chicken Curry">
+            <div class="recipe-content">
+                <h2 class="recipe-title">Chicken Curry</h2>
+                <p class="recipe-details">
+                    A flavorful curry dish made with tender chicken pieces, aromatic spices, and creamy coconut milk.
+                </p>
+            </div>
+        </div>
+        <!-- Recipe 3 -->
+        <div class="recipe">
+            <img src="images/chocolate cake.jpeg" alt="Chocolate Cake">
+            <div class="recipe-content">
+                <h2 class="recipe-title">Chocolate Cake</h2>
+                <p class="recipe-details">
+                    A rich and moist chocolate cake topped with silky chocolate frosting. Great for special occasions!
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Recipe Book | <a href="">Contact Us</a></p>
+    </footer>
+</body>
+</html>
